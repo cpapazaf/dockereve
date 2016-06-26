@@ -11,7 +11,7 @@ Built on:
 * [Docker](https://www.docker.com/)
 
 ## Run
-``sh
+```sh
 $ docker-compose build
 $ docker-compose up
 $ curl -i -H "Accept: application/json" "http://192.168.99.100:80/scenarios"
