@@ -14,7 +14,8 @@ Built on:
 ```sh
 $ docker-compose build
 $ docker-compose up
-$ curl -i -H "Accept: application/json" "http://192.168.99.100:80/scenarios"
+$ curl -H "Content-Type: application/json" -X POST -d '{"title": "Hello World"}' http://192.168.99.100:80/scenarios
+$ curl -i -H "Content-Type: application/json" http://192.168.99.100:80/scenarios
 ```
 
 ## Contribution
